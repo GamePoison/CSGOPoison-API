@@ -13,7 +13,7 @@ dependencies {
 	implementation("org.gamepoison.internal", "api-native-jna", "0.1.0")
 	implementation("org.gamepoison.internal", "api-native-jna-windows", "0.1.0")
 
-	implementation("com.csgopoison", "app", "0.1.0")
+	implementation("com.csgopoison", "api", "0.1.0")
 
 	implementation("com.badlogicgames.gdx:gdx:$gdxVersion")
 	implementation("com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion")

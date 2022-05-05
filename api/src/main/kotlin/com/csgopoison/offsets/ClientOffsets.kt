@@ -1,12 +1,13 @@
 package com.csgopoison.offsets
 
 interface ClientOffsets {
-	
 	val dwIndex: Long
 	
 	val bDormant: Long
 	
 	val decalname: Long
+
+	val dwInputSig: Long
 	
 	val dwFirstClass: Long
 	

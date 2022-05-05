@@ -1,7 +1,6 @@
 package com.csgopoison
 
 interface Entity : CSGOSource {
-	
 	val spotted: Boolean
 	
 	val dormant: Boolean
@@ -15,5 +14,6 @@ interface Entity : CSGOSource {
 	val studioHdr: Long
 	
 	val type: EntityType
-	
+
+	fun absPosition(): Vector
 }

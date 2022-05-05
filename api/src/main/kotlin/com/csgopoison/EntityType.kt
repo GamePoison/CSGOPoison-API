@@ -2,7 +2,6 @@ package com.csgopoison
 
 
 enum class EntityType(val weapon: Boolean = false, val grenade: Boolean = false) {
-	
 	NULL,
 	CAI_BaseNPC,
 	CAK47(weapon = true),

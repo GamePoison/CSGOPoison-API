@@ -23,6 +23,7 @@ interface NetVars {
 	val vecOrigin: Long
 	
 	val iCompetitiveRanking: Long
+	val aimPunchAngle: Long
 	
 	val fFlags: Long
 	val lifeState: Long

@@ -1,5 +1,6 @@
 package com.csgopoison.plugin
 
+import com.csgopoison.EntityManager
 import com.csgopoison.netvars.NetVars
 import com.csgopoison.offsets.ClientOffsets
 import com.csgopoison.offsets.EngineOffsets
@@ -15,5 +16,6 @@ object PluginScriptCompilation : ScriptCompilationConfiguration({
 		"com.csgopoison.*",
 		"com.csgopoison.plugin.*",
 	)
-	implicitReceivers(NetVars::class, ClientOffsets::class, EngineOffsets::class)
+
+	implicitReceivers(NetVars::class, ClientOffsets::class, EngineOffsets::class, EntityManager::class)
 })

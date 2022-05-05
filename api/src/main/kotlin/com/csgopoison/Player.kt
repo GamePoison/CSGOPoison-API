@@ -1,7 +1,6 @@
 package com.csgopoison
 
 interface Player : Entity {
-	
 	val weaponIndex: Int
 	
 	val flags: Int
@@ -23,5 +22,12 @@ interface Player : Entity {
 	val hasDefuser: Boolean
 	
 	val time: Double
-	
+
+	fun aimPunch(): Vector
+
+	fun eyePosition(): Vector
+
+	fun bone(offset: Int, boneID: Int): Double
+
+	fun getBonePos(boneID: Int): Vector
 }
